@@ -1,0 +1,23 @@
+.main {
+    .header {
+        display: flex;
+        ion-icon {
+            margin: 12px;
+            color: #1EEB00;
+            position: absolute;
+        }
+        .page-tittle {
+            margin: 16px auto 0px ;
+            font-family: Montserrat;
+            font-weight: bold;
+            font-size: 16px;
+            color: #004B40;
+        }
+    }
+
+    .stepper-content {
+        margin-top: 56px;
+    }
+}
+
+

@@ -1,0 +1,57 @@
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  > .slogan-container {
+    margin: auto;
+
+    .page-description {
+      margin-top: 40px;
+    }
+  }
+}
+
+.page-description {
+  color: #1EEA00;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16;
+  border-radius: 20px;
+  height: 50px;
+  margin: 8px auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+.btn-register {
+  background-color: #1EEA00;
+  color: #004B40;
+}
+
+.btn-login {
+  background-color: #004B40;
+  color: white;
+}
+
+.container-buttons {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,22 @@
+<div *ngIf="form">
+  <form [formGroup]="form">
+
+    <div class="title-container">
+      
+      <img class="coink-logo" src="./../../../assets/svg/coink-icon.svg" width="72" height="64" />
+
+      
+      <p class="description"> Para comenzar, por favor ingresa <b>tu número celular.</b> </p>
+    </div>
+
+    <mat-form-field class="phone-input">
+      <input  matInput formControlName="phoneNumber" [showMaskTyped]="true"
+        [specialCharacters]="[' ']" [shownMaskExpression]="'           '" mask="000 0000000" placeholder="(XXX XXXXXXX)"
+        inputmode="numeric">
+    </mat-form-field>
+
+
+
+  </form>
+
+</div>

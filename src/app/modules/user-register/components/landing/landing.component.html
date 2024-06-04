@@ -1,0 +1,36 @@
+<div class="main">
+  <div class="header">
+    <ion-icon name="chevron-back-outline" size="large"></ion-icon>
+    <h2 class="page-tittle"> {{title}}</h2>
+  </div>
+
+  <mat-stepper [linear]="true" #stepper>
+    <mat-step [stepControl]="formGroupPhoneNumber">
+      <div class="stepper-content">
+          <app-phone [form]="formGroupPhoneNumber"></app-phone>
+          <div>
+            <button mat-button matStepperNext>Next</button>
+          </div>
+
+      </div>
+    </mat-step>
+    <mat-step [stepControl]="formGroupAccount">
+      <div class="stepper-content">
+          <app-account [form]="formGroupAccount"></app-account>
+          <div>
+            <button mat-button matStepperNext>Next</button>
+          </div>
+
+      </div>
+    </mat-step>
+    <mat-step [stepControl]="formGroupPolicies">
+      <div class="stepper-content">
+          <app-policies [form]="formGroupPolicies"></app-policies>
+          <div>
+            <button mat-button matStepperNext>Next</button>
+          </div>
+
+      </div>
+    </mat-step>
+  </mat-stepper>
+</div>
