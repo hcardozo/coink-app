@@ -42,3 +42,6 @@ Despues de realizar el empaquetado se abrira ANDROID STUDIO y podremos generar l
 4. Despues de esto podremos encontrar nuesta APK en la ruta del proyecto: 
 
 > coink-app\android\app\build\outputs\apk
+
+
+Pido disculpas por no terminar completamente el desarrollo pero espero que con lo que se evidencio en el codigo se pueda dar una idea de mis conocimientos y la manera en que trabajo, tanto desde organizacion hasta logica y pulcritud de las pantallas, gracias.
