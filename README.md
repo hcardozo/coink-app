@@ -23,7 +23,7 @@ Por cuestiones personales y de tiempo quedaron pendientes los siguientes puntos:
 - Configuracion de splashscreen e iconografia (Se intento realizar la configuracion de ambas cosas con capacitor pero por cuestiones de tiempo no se lograron corregir los errores por lo que no se logro prsentar el spash y la configuracion de los iconos)
 
 
-## Requisitos Previos
+## Compilacion y generacion de APK
 
 Para la compilacion y generacion de la apk es necesario ejecutar los siguientes comandos bash:
 
